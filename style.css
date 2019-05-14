@@ -1,0 +1,299 @@
+body {
+	width: 90%;
+	margin: 0 auto;
+	background-image: url(images/header.jpg);
+    background-repeat: repeat; /* The banner should only repeat horizontally (on the x-axis)*/
+ 	}
+
+On smaller screens, decrease text size
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}}
+
+.cart { /* CONTINUE HERE **************************************/
+  background-image: url(../images/______.jpg)
+  background-position: center;
+/* CONTINUE HERE **************************************/
+  background-blend-mode: ;
+  /* background-repeat: repeat;  The banner should only repeat horizontally (on the x-axis)*/
+  }
+
+h1, h2 {
+	font-weight: normal;
+	color: #64645A;
+	margin: 0px;}
+
+h1 {
+	font-family: Georgia, Times, serif;
+	font-size: 250%;
+	text-shadow: 2px 2px 3px #666666;
+	padding-bottom: 0px;}
+
+h2 {
+	font-family: "Gill Sans", Arial, sans-serif;
+	font-size: 90%;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;}
+
+
+.container.heading {
+	border: 0px solid red;
+	padding-bottom: 5px;}
+
+.container.heading .logo {
+	border: 0px solid black;
+	width: auto;
+	display: inline-block;}
+.github a:hover {
+ 	text-decoration: none;}
+.learningnode a:hover {
+ 	text-decoration: none;}
+
+.container.heading .navigation {
+	float: right;
+	border: 0px solid black;
+	width: auto;
+	display: inline-block;
+	position: relative;}
+
+p.list {
+	font-family: Arial, Verdana, sans-serif;
+	text-align: right;}
+
+li {
+	display: inline;
+	padding: 0px 10px 0px 0px;}
+a {
+ 	text-decoration: none;
+ 	color: #64645A;
+ 	margin: 0px;}
+a:hover {
+ 	text-decoration: underline;}
+
+.breadcrumbs {
+	margin-top: 40px;
+	margin-bottom: 40px;}
+
+
+/* ------------------------------------------------------*/
+.container.author {
+	border: 0px solid black;
+	font-family: Arial, Verdana, sans-serif;
+ 	color: #665544;
+ 	overflow: auto;}
+img.author {
+	float: right;
+	image-rendering: auto;
+	max-width:30%;
+	margin-top: 0px;}
+blockquote {
+  	float: right;
+ 	clear: right;
+ 	max-width:30%;
+ 	font-size: 50%;
+ 	font-style: italic;
+ 	font-family: Georgia, Times, serif;
+ 	margin: 0px 0px 10px 10px;
+ 	padding: 5px;
+ 	border-top: 1px solid #00000;
+ 	border-bottom: 1px solid #00000;}
+ span.tetris {
+	font-family: Arial, Verdana, sans-serif;
+ 	color: #665544;
+ 	font-weight: bold;}
+ a.agency {}
+
+/* ------------------------------------------------------*/
+
+.container.articles {
+	border: 0px solid black;
+	font-family: Arial, Verdana, sans-serif;
+ 	color: #665544;
+	width: 100%;
+    margin: 0 auto; /* Centers the content */}
+
+.article1, .article2, .article3 {
+	border: 0px solid black;
+	float: left;
+	width: 250px;
+	margin: 0 auto;  /* Centers the content */
+	padding: 61px;
+	display: inline;}
+
+/* ------------------------------------------------------*/
+
+.social {
+	border: 0px solid black;
+	width: 100%;
+	display: inline-block;
+	overflow: auto;
+clear: left;}
+p.follow {
+	font-family: "Gill Sans", Arial, sans-serif;
+	font-size: 90%;
+	text-align: center;
+	text-transform: uppercase;}
+span.facebook {
+	word-spacing: 0.8em;
+}
+
+/* ------------------------------------------------------*/
+.footer {
+	border: 0px solid black;
+	display: block;
+	overflow: auto;
+	width: 100%;
+	padding: 10px 0px 5px 0px;
+	text-align: center;}
+p.copyright {
+	font-family: "Gill Sans", Arial, sans-serif;
+	color: #665544;
+	text-align: center;}
+
+/* ------- SHOP PAGE ------------------------------------ */
+
+.onsale {
+	border: 0px solid black;
+	font-family: Arial, Verdana, sans-serif;
+ 	color: #665544;
+ 	width: 550px;
+	padding: 8px;
+	margin: 0 auto;
+	overflow: auto;}
+
+img.onsale-item {
+	border: 15px solid black;
+	width: 520px;}
+img.onsale-item:hover {
+  	box-shadow: 0px 0px 5px 5px rgba(255,0,255);}
+.onsale button {
+	float: right;
+	display: inline-block;}
+.onsale p {
+	border: 0px solid black;
+	display: inline-block;
+	float: right;
+	text-align: center;
+	padding-right: 125px;
+	padding-bottom: 50px;}
+
+.container.shop {
+	margin: 0 auto;
+}
+
+.inventory.items {
+	border: 0px solid blue;
+	width: 200px;
+	height: 400px;
+	padding: 0;
+	margin: 0 7% 40px 0; /* Centers the content */
+	display: inline-block;
+	overflow: auto;}
+.item {
+	border: 0px solid red;
+	font-family: Arial, Verdana, sans-serif;
+	color: #665544;
+	float: left;
+	width: 89.89999%;
+	padding: 8px 8px 8px 8px;
+	background-color: #00000;
+	display: inline-block;}
+.items img {
+	border: 6px solid black;
+	width: 93%;}
+
+.items img:hover {
+  	box-shadow: 0px 0px 5px 5px rgba(255,0,255);}
+
+.item button {
+	float: right;
+	display: inline-block;}
+
+span.item-name {}
+span.item-description {}
+
+
+
+/* This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).
+Learn more about media queries and responsive web design later in our CSS Tutorial.
+Also, what is this css "* {box-sizing: border-box;}" ?
+
+@media only screen and (max-width: 700px) {
+.inventory.items {
+	width: 49.99999%;
+	margin: 6px 0;} } /* keep this extra curly bracket */
+/*@media only screen and (max-width: 500px) {
+.inventory.items {
+	width: 100%;} } /* keep this extra curly bracket */
+
+.shop-clearfix:after { /* Don't know what this does */
+	content: "";
+	display: table;
+	clear: both; }
+
+.shop-talk {
+	 padding:50px;}
+
+/* ------- END OF SHOP PAGE ----------------------------- */
+
+
+
+
+
+/* ------------------------------------------------------*/
+
+h4 {
+	font-family: Arial, Verdana, sans-serif;
+	color: #665544;
+	text-align: center;
+	padding: 10px;
+	border-top: double;
+	border-bottom: double;}
+/*
+.container.about {
+	border: 0px solid red;
+	font-family: Arial, Verdana, sans-serif;
+ 	color: #665544;
+	width: 100%;
+    margin: 0 auto; /* Centers the content */
+/*	overflow: auto;}
+
+.about1, .about2, .about3 {
+	border: 0px solid yellow;
+	float: left;
+	clear: left;
+	width: 26%;
+	margin: 0 11px 0 0;  /* Centers the content */
+/*	padding: 3%;
+	display: inline;
+	overflow: auto;}
+*/
+.container.about {
+	border: 0px solid red;
+	font-family: Arial, Verdana, sans-serif;
+ 	color: #665544;
+	width: 100%;
+    margin: 0 auto; /* Centers the content */}
+
+.about1, .about2, .about3 {
+	border: 0px solid black;
+	float: left;
+	width: 250px;
+	margin: 0 auto;  /* Centers the content */
+	padding: 61px;
+	top: 0;
+	display: inline-block;}
+
+span.current-projects {
+	text-decoration: underline;}
+
+.about-footer {
+	padding-top: 50px;
+	border: 0px solid brown;
+	font-family: Arial, Verdana, sans-serif;
+	color: #665544;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	overflow: auto;}
+
+/* ------------------------------------------------------*/
